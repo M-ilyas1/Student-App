@@ -1,0 +1,58 @@
+body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  #root {
+    display: flex;
+  }
+  .list-item {
+    width: 80px;
+    border: 1px solid #eee;
+    text-align: center;
+  }
+  .modal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #525252a8;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-content {
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .confirm {
+    position: relative;
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+  }
+  .input {
+    display: block;
+    margin: 5px 0;
+  }
+  .preview {
+    margin-top: 85px;
+    padding: 20px;
+  }
+
+
+
+
+
+
